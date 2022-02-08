@@ -1,8 +1,19 @@
+.instagram{
+    font-family: 'Courgette', cursive;
+}
 nav.navbar{
     position: fixed;
+    z-index: 2;
+    background-color: rgb(163, 163, 163);
 }
 div.newpost{
     margin-left: 700px;
+    
+}
+.hphoto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 a.navbar-brand{
   margin-left: 150px;
@@ -12,7 +23,7 @@ a.navbar-brand{
     padding-top: 56px;
     justify-content: center;
 }
-img{
+div.col-4 img{
     width: 100%;
     margin: 0px;
     padding: 2px;
