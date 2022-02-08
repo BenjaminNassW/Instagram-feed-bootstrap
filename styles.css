@@ -4,10 +4,11 @@
 nav.navbar{
     position: fixed;
     z-index: 2;
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(199, 198, 198);
 }
 div.newpost{
     margin-left: 700px;
+    position: relative;
     
 }
 .hphoto{
@@ -32,4 +33,15 @@ div.col-4 img{
 div.col-4{
     padding: 0;
 }
-
+div.modal-backdrop.fade.show{
+    position: relative;
+}
+div.card{
+    background-color: rgb(172, 172, 172);
+}
+#comment{
+    width: 610px;
+}
+#photomodal{
+   transform: scale(1.7);
+}
